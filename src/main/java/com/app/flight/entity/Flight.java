@@ -14,9 +14,9 @@ public class Flight {
     private int flight_id;
     @Column(name="airline_name")
     private String airline_name;
-    @Column(name="from")
+    @Column(name="from_location")
     private String from;
-    @Column(name="to")
+    @Column(name="to_location")
     private String to;
     @Column(name="start_time")
     private Time start_time;
