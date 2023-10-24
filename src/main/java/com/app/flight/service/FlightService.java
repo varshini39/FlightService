@@ -1,6 +1,6 @@
 package com.app.flight.service;
 
-import com.app.flight.entity.Flight;
+import com.app.project.entity.Flight;
 
 import java.util.List;
 

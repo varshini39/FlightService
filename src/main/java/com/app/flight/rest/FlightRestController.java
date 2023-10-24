@@ -1,8 +1,8 @@
 package com.app.flight.rest;
 
-import com.app.flight.entity.Flight;
 import com.app.flight.exception.IdNotFoundException;
 import com.app.flight.service.FlightService;
+import com.app.project.entity.Flight;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

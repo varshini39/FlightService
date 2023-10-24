@@ -1,8 +1,8 @@
 package com.app.flight.service;
 
-import com.app.flight.entity.Flight;
 import com.app.flight.exception.IdNotFoundException;
 import com.app.flight.repository.FlightRepository;
+import com.app.project.entity.Flight;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
