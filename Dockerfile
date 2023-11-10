@@ -7,5 +7,7 @@ WORKDIR /app/flight-service
 # Copy the JAR file into the container
 COPY target/flight-service-1.jar flight-service.jar
 
+EXPOSE 8082
+
 # Command to run your application
 ENTRYPOINT ["java", "-jar", "flight-service.jar"]
